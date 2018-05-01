@@ -17,4 +17,25 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.video.wsuhdeb" name="W-SUHD" version="2.1" provider-name="ElectricBump">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">W-SUHD</summary>
+    <summary lang="en">W-SUHD</summary>
+    <website>http://www.w-suhd.com/</website>
+    <description lang="es">Add-on de W-SUHD IPTV para Kodi. Basado en el código creado por MikkM bajo licencia GPL.</description>
+    <description lang="en">W-SUHD IPTV add-on for Kodi. Based on the code created by MikkM under GPL License.</description>
+    <forum>http://www.w-suhd.com/</forum>
+    <email>contact@w-suhd.com</email>
+    <disclaimer lang="es">Este add-on es para usarse con el servicio W-SUHD IPTV y requiere una cuenta de este. Para más información comuníquese con su vendedor.</disclaimer>
+    <disclaimer lang="en">This addon is to be used with the W-SUHD IPTV service and requires an account in this service. Contact your seller for more information.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
